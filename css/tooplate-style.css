@@ -264,7 +264,7 @@ p {
 }
 
 .btn {
-    padding: .5rem 2.4rem;
+    padding: .5rem 2rem;
     font-size: 1.2rem;
     border-radius: 0;
 }
@@ -298,6 +298,21 @@ footer {
     /* background-color: #006599; */
     display: inline-block;
     padding: 10px 30px;
+}
+
+.maintenance-img-container {
+    display: flex; /* Menggunakan flexbox untuk memudahkan penataan */
+    justify-content: center; /* Memusatkan gambar secara horizontal */
+    align-items: center; /* Memusatkan gambar secara vertikal */
+    padding: 20px; /* Memberikan sedikit ruang di sekitar gambar */
+    height: 100%; /* Memastikan container mengambil tinggi penuh dari elemen induk */
+}
+
+.maintenance-img {
+    width: auto; /* Menjaga proporsi gambar */
+    max-width: 50%; /* Membatasi lebar gambar agar tidak melebihi lebar container */
+    max-height: 70vh; /* Membatasi tinggi gambar agar tidak melebihi 70% dari tinggi viewport */
+    object-fit: contain; /* Memastikan gambar menyesuaikan dengan ukuran tanpa merusak proporsi */
 }
 
 a, button { transition: all 0.3s ease; }
