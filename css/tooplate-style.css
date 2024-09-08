@@ -80,7 +80,7 @@ p {
     margin: 10px;
 }
 
-.tm-nav-link { 
+.tm-nav-link {
     color: white;
     display: flex;
     flex-direction: column;
@@ -112,9 +112,13 @@ p {
     color: #a9a9a9;
 }
 
-.tm-nav-icon {    
+.tm-nav-icon {
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
     display: block;
-    margin-bottom: 25px;
 }
 
 /* Expanding Grid Items from Codrops */
